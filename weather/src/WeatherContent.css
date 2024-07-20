@@ -1,0 +1,110 @@
+/* Weather contents */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.weather-content{
+  background-color:white;
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgb(217, 137, 33);
+}
+.weather-image{
+  height: 130px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.city-name{
+    color: rgb(145, 95, 29);
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+.text-content{
+ /* display: flex; */
+ text-align: center;
+}
+.humidity-image,.wind-image{
+    height: 60px;
+}
+.Extra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+}
+.Extra-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.windSpeed,.humidity{
+    text-align: center;
+    
+}
+.humidity-image-containor,.windSpeed-image-containor{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.windSpeed>div,.humidity>div{
+    padding-top: 2px;
+}
+footer{
+    display: flex;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    padding: 3px;
+    
+}
+.designer-title{
+    opacity: 0.5;
+    margin-right: 3px;
+    font-family: 'Poppins';
+}
+
+.designer{
+    opacity: 1;
+    font-family: 'Poppins';
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+sup{
+    font-size: 10px;
+    font-weight: 600;
+}
+.Temperature{
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+.feel{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.feel-sup{
+    font-size: 7px;
+    font-weight: 550;
+    font-family: 'Poppins';
+}
+.country{
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 500;
+    color: rgb(183, 122, 44);
+    opacity: 0.4;
+
+}
